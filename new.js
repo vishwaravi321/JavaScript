@@ -9,5 +9,7 @@ console.log(typeof b)
 b = b - 1
 console.log(typeof b)
 
+num = 10
 
+console.log(num)
 
