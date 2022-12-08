@@ -1,15 +1,4 @@
-let a = 9007199254740991
-console.log(typeof a)
-a = a + 'n'
-console.log(typeof a)
-
-let b = '100'
-
-console.log(typeof b)
-b = b - 1
-console.log(typeof b)
-
-num = 10
-
-console.log(num)
-
+let a = 56;
+let b = 389213413414;
+let c = a + b;
+console.log(c);
