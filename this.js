@@ -18,3 +18,11 @@ console.log(laptop);
 laptop.config()
 console.log(laptop);
 
+
+let num = 10;
+
+function test(num) {
+    return this.num*this.num
+}
+
+console.log(test(9));
