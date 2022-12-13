@@ -65,3 +65,13 @@ if(data.length<9){
 }
 
 console.log(data);
+
+let [a,b,...c] = cards;
+
+console.log(a,b,c);
+
+let v = "Hello I'm under the water please help me".split(' ');
+
+let [x,y,...z]= v;
+
+console.log(x,y,z);
